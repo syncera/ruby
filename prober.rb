@@ -1,7 +1,6 @@
 # Create a simple prober
 #
-# Poke the Google HTTP endpoint and display the result
-# or instead, ask the user for input
+# Query user for input, check to see if the site is up
 
 require 'net/http'
 require 'url'
