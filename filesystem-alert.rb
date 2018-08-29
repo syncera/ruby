@@ -1,3 +1,4 @@
+# Alert script for high filesystem usage
 ALERT filesystem_dangerously_high
  IF ((node_filesystem_size - node_filesystem_free{mountpoint='/'}) / node_filesystem_size) * 100 > 10
 ANNOTATIONS {
